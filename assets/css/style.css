@@ -64,6 +64,22 @@ body {
     letter-spacing: 4px;
 }
 
+@media (max-width: 480px) {
+    .logo-text-brand {
+        font-size: 2rem; 
+    }
+
+    .logo-icon-small {
+        width: 40px; 
+        height: auto;
+    }
+    
+   
+    .logo-brand {
+        gap: 10px; 
+    }
+}
+
 .login-box {
     background-color: rgba(0, 0, 0, 0.75);
     padding: 40px;
